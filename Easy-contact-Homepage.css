@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.row {
+    align-items: center;
+
+}
+
+.text {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+}
+
+.contacts-div {
+    gap: 9px;
+    align-items: center;
+    margin: 10px;
+}
+
+.contacts-text {
+    color: #767272;
+}
+
+.contactsNo {
+    background-color: #FAFCFF;
+    border-radius: 5px;
+    width: 31px;
+    height: 28px;
+    backdrop-filter: 4px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.main-contacts {
+    background-color: #FAFCFF;
+    height: 98px;
+    width: 452px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.main-contacts img {
+    margin-left: 10px;
+}
+
+.Full-Name {
+    font-family: "inter";
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+
+.proficiency {
+    font-size: medium;
+    color: #767272;
+}
+
+.name-pro {
+    width: 80%;
+}

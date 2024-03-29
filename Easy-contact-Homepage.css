@@ -2,10 +2,9 @@
 
 
 .row {
-    align-items: center;
     margin: auto;
-
-
+    /* justify-content: center; */
+    
 }
 
 .text {
@@ -37,11 +36,14 @@
 
 .main-contacts {
     background-color: #FAFCFF;
-    height: 98px;
-    width: 452px;
+    height: 14vh;
+    width: 100%;
     border-radius: 20px;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position :relative;
 }
 
 .main-contacts img {
@@ -51,7 +53,7 @@
 .Full-Name {
     font-family: "inter";
     font-weight: bolder;
-    font-size: calc(12px + 1.2vw);
+    font-size: calc(7px + 1vw);
 
 }
 
@@ -61,7 +63,11 @@
 }
 
 .name-pro {
-    width: 80%;
+    padding-top: 10px;
+    height: 3%;
+    width: 70%;
+    position: relative;
+    z-index: 3;
 }
 body {
     display: flex;
@@ -69,4 +75,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #0a5edb;
+}
+.first-row {
+    overflow: scroll;
 }

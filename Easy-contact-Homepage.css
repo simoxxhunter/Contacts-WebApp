@@ -53,7 +53,7 @@
 .Full-Name {
     font-family: "inter";
     font-weight: bolder;
-    font-size: calc(7px + 1vw);
+    font-size: calc(10px + 0.9vw);
 
 }
 
@@ -63,11 +63,11 @@
 }
 
 .name-pro {
-    padding-top: 10px;
-    height: 3%;
+    background-color: coral;
+    top: 10px;
+    height: 22px;
     width: 70%;
     position: relative;
-    z-index: 3;
 }
 body {
     display: flex;

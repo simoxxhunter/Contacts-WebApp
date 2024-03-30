@@ -3,7 +3,8 @@
 
 .row {
     margin: auto;
-    /* justify-content: center; */
+    justify-content: center;
+    height: 100% ;
     
 }
 
@@ -36,7 +37,7 @@
 
 .main-contacts {
     background-color: #FAFCFF;
-    height: 14vh;
+    height: 8vh;
     width: 100%;
     border-radius: 20px;
     align-items: center;
@@ -70,6 +71,7 @@
     position: relative;
 }
 body {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,4 +80,14 @@ body {
 }
 .first-row {
     overflow: scroll;
+}
+.container-fluid {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.sec-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

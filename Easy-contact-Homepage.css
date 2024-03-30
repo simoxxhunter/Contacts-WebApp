@@ -80,14 +80,48 @@ body {
 }
 .first-row {
     overflow: scroll;
+    scroll-behavior: smooth;
 }
 .container-fluid {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
-.sec-row{
+.sec-row {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.square {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    border-color: blueviolet;
+    border: #0a5edb;
+    fill: none;
+    stroke: #0a5edb;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20%;
+
+}
+
+.square h2 {
+    position: absolute;
+    top: 20%;
+}
+
+#clickeduserprofilePic {
+    position: relative;
+    left: 0%;
+    top: -35%;
+    z-index: 1;
+
 }

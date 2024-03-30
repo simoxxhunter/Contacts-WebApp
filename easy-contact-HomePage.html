@@ -14,15 +14,16 @@
 </head>
 
 <body style="background-color: #0a5edb;">
-    <div class="container-fluid  " style="background-color: aquamarine;">
+    <div class="container-fluid  " style="background-color: aquamarine; height: 90%;">
 
         <div class="row" style="background-color: orange;">
-            <div class="col-md-5 col-12 first-row" style="background-color: teal; ">
+            <div class="col-md-5 col-12 first-row" style="background-color: teal;">
                 <div class="d-flex text-start contacts-div ">
 
                     <div class="contacts-text text">Contacts</div>
                     <div class="contactsNo d-flex text">23</div>
                 </div>
+                <!--style="height: 80vh;"-->
                 <div id="main-contacts" class="main-contacts">
                     <!-- <img id="profilePic" class="rounded-circle" src="Profile-Pic.png" alt="user picture" style="height: 50px; width: 50px;">
 
@@ -34,15 +35,58 @@
 
 
                 <br>
-                <div class="d-flex justify-content-sm-start justify-content-center">
-                </div>
+                <!-- <div class="d-flex justify-content-sm-start justify-content-center">
+                </div> -->
 
 
             </div>
             <div class="col-md-7 d-flex d-none d-md-block justify-content-center align-items-center "
                 style="background-color: greenyellow;">
-                <img src="Logo.png" alt="Homepage-Logo" class="img-responsive" width="85%"
-                    style="background-color: brown;">
+                <!-- <img src="Logo.png" alt="Homepage-Logo" class="img-responsive" width="85%"
+                    style="background-color: brown; margin: auto;"> -->
+                <style>
+                    .square {
+                        margin: auto;
+                        height: 500px;
+                        width: 500px;
+                        border-color: blueviolet;
+                        border: #0a5edb;
+                        fill: none;
+                        stroke: #0a5edb;
+                        border-style: solid;
+                        border-radius: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        margin-top: 20px;
+                    }
+
+                    .square h2 {
+                        position: absolute;
+                        top: 12%;
+                    }
+                </style>
+
+                <div class="square">
+                    <h2>FULL NAME</h2>
+
+                    <div class="info">
+                        <img src="" alt="">
+                        <p>Email</p>
+                    </div>
+
+                    <div class="info">
+                        <img src="" alt="">
+                        <p>Phone</p>
+                    </div>
+
+                    <div class="info">
+                        <img src="" alt="">
+                        <p>Address</p>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -53,8 +97,6 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
     <script src="Easy-contact-Homepage.js">
-      
+
     </script>
 </body>
-
-</html>

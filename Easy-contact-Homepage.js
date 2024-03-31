@@ -26,7 +26,7 @@ const results = {
                 "description": "Kabul"
             }
         },
-        "email": "samuel.brown@example.com",
+        "email": "samu4587el.brown@example.com",
         "login": {
             "uuid": "e0a1f6ff-13ab-4340-9ec9-daa5a7676902",
             "username": "silvermeercat882",
@@ -82,7 +82,7 @@ const results = {
                 "description": "Kabul"
             }
         },
-        "email": "samuel.brown@example.com",
+        "email": "samue4524l.brown@example.com",
         "login": {
             "uuid": "e0a1f6ff-13ab-4340-9ec9-daa5a7676902",
             "username": "silvermeercat882",
@@ -138,7 +138,7 @@ const results = {
                 "description": "Kabul"
             }
         },
-        "email": "samuel.brown@example.com",
+        "email": "samuel4522.brown@example.com",
         "login": {
             "uuid": "e0a1f6ff-13ab-4340-9ec9-daa5a7676902",
             "username": "silvermeercat882",
@@ -194,7 +194,7 @@ const results = {
                 "description": "Kabul"
             }
         },
-        "email": "samuel.brown@example.com",
+        "email": "samuel.b452rown@example.com",
         "login": {
             "uuid": "e0a1f6ff-13ab-4340-9ec9-daa5a7676902",
             "username": "silvermeercat882",
@@ -250,7 +250,7 @@ const results = {
                 "description": "Kabul"
             }
         },
-        "email": "samuel.brown@example.com",
+        "email": "samuel.brow45245n@example.com",
         "login": {
             "uuid": "e0a1f6ff-13ab-4340-9ec9-daa5a7676902",
             "username": "silvermeercat882",
@@ -301,7 +301,6 @@ results.results.forEach(user => {
 });
 
 
-
 document.getElementById('main-contacts').addEventListener('click', function(event) {
     if (event.target.classList.contains('main-contacts')) {
         const index = Array.from(this.children).indexOf(event.target);
@@ -310,13 +309,16 @@ document.getElementById('main-contacts').addEventListener('click', function(even
         const fullName = `${clickedUser.name.title} ${clickedUser.name.first} ${clickedUser.name.last}`;
         const city = clickedUser.location.city;
         const profilePic = clickedUser.picture.medium;
+        const email = clickedUser.email;
+        const phone = clickedUser.phone;
 
         document.getElementById('clickeduserprofilePic').src = profilePic;
         document.querySelector('.square h2').innerText = fullName;
         document.querySelectorAll('.square .info p')[0].innerText = `City: ${city}`;
+        document.querySelectorAll('.square .info p')[1].innerText = `Email: ${email}`;
+        document.querySelectorAll('.square .info p')[2].innerText = `Phone: ${phone}`;
     }
 });
-
 
 
 

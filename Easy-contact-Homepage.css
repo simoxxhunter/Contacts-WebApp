@@ -3,8 +3,7 @@
 
 .row {
     margin: auto;
-    justify-content: center;
-    height: 100% ;
+    /* justify-content: center; */
     
 }
 
@@ -37,7 +36,7 @@
 
 .main-contacts {
     background-color: #FAFCFF;
-    height: 8vh;
+    height: 14vh;
     width: 100%;
     border-radius: 20px;
     align-items: center;
@@ -71,7 +70,6 @@
     position: relative;
 }
 body {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,48 +78,4 @@ body {
 }
 .first-row {
     overflow: scroll;
-    scroll-behavior: smooth;
-}
-.container-fluid {
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-}
-.sec-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-}
-.square {
-    margin: auto;
-    height: 500px;
-    width: 500px;
-    border-color: blueviolet;
-    border: #0a5edb;
-    fill: none;
-    stroke: #0a5edb;
-    border-style: solid;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-top: 20%;
-
-}
-
-.square h2 {
-    position: absolute;
-    top: 20%;
-}
-
-#clickeduserprofilePic {
-    position: relative;
-    left: 0%;
-    top: -35%;
-    z-index: 1;
-
 }
